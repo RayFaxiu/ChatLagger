@@ -11,5 +11,4 @@ if SayMessageRequest then
         SayMessageRequest:FireServer(Message, "All")
     end
 end
-wait(math.random(12,14))
 end 
