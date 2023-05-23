@@ -1,5 +1,5 @@
- while wait() do
-local Message = "GetLagKid"
+while wait() do
+local Message = "😈"
 local Unicode = " "
 Message = Message .. Unicode:rep(200 - #Message)
 
@@ -11,4 +11,5 @@ if SayMessageRequest then
         SayMessageRequest:FireServer(Message, "All")
     end
 end
+wait(math.random(12,14))
 end 
